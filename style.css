@@ -1,24 +1,41 @@
-body{
-    margin: 0;
-    padding: 0;
+*{
+    scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.form{
-    display: flex;
-    justify-content: center;
-    /*margin-top: 10vh;
-    margin-left: 29em; 
-    margin-right: 29em; */
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
 }
 
-.nav-link,.navbar-brand{
-    color: black;
-    font-family: 'Caveat', cursive;
-    font-size: 1.5rem;
+/* #features {
+    margin-top: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-bottom: 5vh;
+  } */
+  
+
+
+.nav-link,
+.navbar-brand {
+  color: black;
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
+  transition: color 1s;
 }
 
-#video{
-    display: flex;
-    justify-content: center;
-   /* margin-top: 5vh;*/
+.nav-link:hover {
+    font-weight: bold;
+  }
+
+#video {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 5vh;*/
 }
+
