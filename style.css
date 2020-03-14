@@ -15,10 +15,18 @@ body{
     color: black;
     font-family: 'Caveat', cursive;
     font-size: 1.5rem;
+    transition: color;
 }
 
 #video{
     display: flex;
     justify-content: center;
    /* margin-top: 5vh;*/
+}
+
+.rotate :hover
+{
+-webkit-transform:rotateZ (-30deg);
+-ms-transform:rotateZ (-30deg);
+transform:rotateZ (-30deg);
 }
