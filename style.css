@@ -1,16 +1,12 @@
-body{
-    margin: 0;
-    padding: 0;
+*{
+    scroll-behavior: smooth;
 }
 
-.form{
-    display: flex;
-    justify-content: center;
-    /*margin-top: 10vh;
-    margin-left: 29em; 
-    margin-right: 29em; */
+.form {
+  margin-top: 14vh;
 }
 
+<<<<<<< HEAD
 .nav-link,.navbar-brand{
     color: black;
     font-family: 'Caveat', cursive;
@@ -30,3 +26,21 @@ body{
 -ms-transform:rotateZ (-30deg);
 transform:rotateZ (-30deg);
 }
+=======
+.nav-link,
+.navbar-brand {
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
+  transition: color 1s;
+}
+
+.nav-link:hover {
+    color: red !important;
+    font-weight: bold;
+  }
+
+.video {
+  margin: 500px !important;
+} 
+
+>>>>>>> c958f9bbeae068ceee4854fc3a452351d9b93869
