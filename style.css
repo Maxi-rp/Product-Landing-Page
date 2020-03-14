@@ -6,7 +6,6 @@
   margin-top: 14vh;
 }
 
-<<<<<<< HEAD
 .nav-link,.navbar-brand{
     color: black;
     font-family: 'Caveat', cursive;
@@ -26,7 +25,6 @@
 -ms-transform:rotateZ (-30deg);
 transform:rotateZ (-30deg);
 }
-=======
 .nav-link,
 .navbar-brand {
   font-family: "Caveat", cursive;
@@ -43,4 +41,3 @@ transform:rotateZ (-30deg);
   margin: 500px !important;
 } 
 
->>>>>>> c958f9bbeae068ceee4854fc3a452351d9b93869
