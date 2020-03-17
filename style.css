@@ -2,10 +2,6 @@
     scroll-behavior: smooth;
 }
 
-body {
-    /* margin-top: 7vh; */
-}
-
 .nav-link,
 .navbar-brand, .adorno{
     font-family: "Caveat", cursive;
