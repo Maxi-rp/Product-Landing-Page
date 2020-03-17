@@ -3,57 +3,51 @@
 }
 
 body {
-    margin-top: 10vh;
-    background-color: red;
-}
-
-.form {
-    background-image: url(img/Image-Top.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-}
-
-.features {
-    background-color: green;
-    height: 100vh;
+    /* margin-top: 7vh; */
 }
 
 .nav-link,
-.navbar-brand {
-    color: black;
-    font-family: 'Caveat', cursive;
-    font-size: 1.5rem;
-    transition: color;
-}
-
-#video {
-    display: flex;
-    justify-content: center;
-    /* margin-top: 5vh;*/
-}
-
-.rotate :hover {
-    -webkit-transform: rotateZ (-30deg);
-    -ms-transform: rotateZ (-30deg);
-    transform: rotateZ (-30deg);
-}
-
-.nav-link,
-.navbar-brand {
+.navbar-brand, .adorno{
     font-family: "Caveat", cursive;
     font-size: 1.5rem;
     transition: color 1s;
 }
 
-.nav-link:hover {
-    color: red !important;
+.nav-link:hover, .adorno:hover {
+    color: #FF4500 !important;
     font-weight: bold;
 }
 
-#where {
-    margin-top: 25vh !important;
-    width: 25vh;
-    height: 50vh;
+.form {
+    background-image: url(img/Snitch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: 0;
+    margin-right: 0;
+    height: 100vh;
+}
+
+.features {
+    background-color: #FAFAD2;
+    margin-left: 0;
+    margin-right: 0;
+    height: 100vh;
+}
+
+.video {
+    background-image: url(img/Snitch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: 0;
+    margin-right: 0;
+    height: 100vh;
+}
+
+.pricing{
+    background-color:Honeydew;
+    margin-left: 0;
+    margin-right: 0;
+    height: 100vh;
 }
